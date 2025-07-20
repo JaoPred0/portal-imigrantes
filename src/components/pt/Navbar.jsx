@@ -79,13 +79,14 @@ export default function Navbar() {
                 to="/en"
                 className="block w-full text-left px-4 py-2 hover:bg-green-700 transition cursor-pointer select-none"
               >
-                🇪🇸 Español
-              </Link> 
+                🇺🇸 English
+              </Link>
               <Link
                 to="/es"
                 className="block w-full text-left px-4 py-2 hover:bg-green-700 transition cursor-pointer select-none"
               >
-                🇺🇸 English 
+                🇪🇸 Español
+                
               </Link>
             </motion.div>
           )}
